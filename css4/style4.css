@@ -1,0 +1,65 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	width: 99%;
+}
+li{
+	float: right;
+	border-right: 1px solid #bbb;
+	font-family: Verdana;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 28px 38px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #111;
+}
+.logo{
+	padding-left: 30px;
+}
+body{
+	background-color: #c4b7a6;
+	font-family: Verdana;
+	color: black;
+}
+.showcase{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding-top: 80px;
+}
+.showcase-right{
+	background-image: url(../images/giphy.gif);
+	height: 120vh;
+	width: 60vw;
+	background-size: cover;
+	background-position: center;
+}
+.showcase-left{
+	text-align: center;
+	background: #b9936c;
+}
+.footer{
+	text-align: center;
+	height: 10vh;
+	color: black;
+}
+.button{
+	background:#dac292;
+	color:black;
+	border-radius:10px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.button:hover{
+	background:#e6e2d3;
+	color:black;
+}
